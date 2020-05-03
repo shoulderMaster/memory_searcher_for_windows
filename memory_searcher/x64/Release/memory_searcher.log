@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (memoryFucker.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  memory_searcher.cpp
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(36,1): warning C4244: '+=': 'SIZE_T'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(333,1): warning C4267: '+=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(224,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(372): message : 컴파일되는 함수 템플릿 인스턴스화 'void Hack::next_scan<char>(std::function<bool (char,char)>)'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(632): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::chrono::duration<double,std::ratio<1,1>>'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(178): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::chrono::duration<__int64,std::nano>'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(610): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>'에 대한 참조를 확인하세요.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(263,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(379): message : 컴파일되는 함수 템플릿 인스턴스화 'void Hack::next_scan_with_multi_threading<char>(std::function<bool (char,char)>)'에 대한 참조를 확인하세요.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(346,28): warning C4477: 'printf' : 서식 문자열 '%08x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'void *'입니다.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(385): message : 컴파일되는 함수 템플릿 인스턴스화 'void Hack::print_scaned_variables_info<char>(void)'에 대한 참조를 확인하세요.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(346,28): warning C4313: 'printf': 서식 문자열의 '%x'이(가) 인수 1('void *' 형식)과(와) 충돌합니다.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(319,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(267): message : 컴파일되는 함수 템플릿 인스턴스화 'std::vector<std::pair<std::function<void (void)>,int>,std::allocator<std::pair<std::function<void (void)>,int>>> Hack::make_second_scan_jobs<char>(std::map<void *,std::vector<int,std::allocator<int>>,std::less<void *>,std::allocator<std::pair<void *const ,std::vector<int,std::allocator<int>>>>> &,std::function<bool (char,char)>)'에 대한 참조를 확인하세요.
+C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\memory_searcher\memory_searcher.cpp(379): message : 컴파일되는 함수 템플릿 인스턴스화 'void Hack::next_scan_with_multi_threading<char>(std::function<bool (char,char)>)'에 대한 참조를 확인하세요.
+  코드를 생성하고 있습니다.
+  1066 of 1080 functions (98.7%) were compiled, the rest were copied from previous compilation.
+    101 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  memory_searcher.vcxproj -> C:\Users\ckdqj\OneDrive - 한양대학교\프로젝트 모음\memory_searcher_for_windows\x64\Release\memory_searcher.exe
